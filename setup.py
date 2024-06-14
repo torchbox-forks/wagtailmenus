@@ -19,9 +19,10 @@ requires = [
 ]
 
 testing_extras = [
-    'beautifulsoup4>=4.8,<4.10',
+    'beautifulsoup4>=4.8,<4.13',
     'coverage>=4.5',
     'django-webtest>=1.9,<1.10',
+    'html5lib'
 ]
 
 development_extras = [
@@ -68,8 +69,8 @@ setup(
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
         'Framework :: Django',
-        'Framework :: Django :: 3.2',
         'Framework :: Django :: 4.2',
+        'Framework :: Django :: 5.0',
         'Framework :: Wagtail :: 5',
         'Framework :: Wagtail :: 6',
         'Topic :: Internet :: WWW/HTTP',

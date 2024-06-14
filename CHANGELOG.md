@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Unreleased
+----------
+
+* Dropped support for Wagtail < 5.2
+* Dropped support for Django < 4.2
+
 4.0.0 (28.02.2024)
 ----------
 
